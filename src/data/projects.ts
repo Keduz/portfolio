@@ -21,7 +21,7 @@ export type Project = {
   shortTitle: string
   subtitle: string
   description: string
-  category: 'automacao' | 'ia' | 'scraping'
+  category: 'automacao' | 'ia' | 'scraping' | 'sistemas'
   categoryLabel: string
   accentColor: string
   accentColorRGB: string
@@ -261,8 +261,8 @@ export const projects: Project[] = [
     shortTitle: 'Corretora de Imoveis',
     subtitle: 'Website premium para corretora imobiliaria na Bahia',
     description: 'Site de alto padrao para corretora de imoveis atuando em Salvador, Feira de Santana e Alagoinhas, com catalogo de imoveis, sistema de busca e integracao WhatsApp.',
-    category: 'automacao',
-    categoryLabel: 'Web Development',
+    category: 'sistemas',
+    categoryLabel: 'Sistemas',
     accentColor: '#D4A843',
     accentColorRGB: '212, 168, 67',
     status: 'Concluido',

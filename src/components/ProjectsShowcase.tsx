@@ -10,6 +10,7 @@ const categories = [
   { key: 'automacao', label: 'Automacao' },
   { key: 'ia', label: 'Inteligencia Artificial' },
   { key: 'scraping', label: 'Web Scraping' },
+  { key: 'sistemas', label: 'Sistemas' },
 ]
 
 const ease = [0.16, 1, 0.3, 1] as const
