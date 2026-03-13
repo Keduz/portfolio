@@ -27,9 +27,11 @@ export default function Hero() {
         <HeroScene />
       </div>
 
-      {/* Gradient Orbs */}
-      <div className="absolute -top-[15%] -left-[10%] w-[600px] h-[600px] bg-accent-purple/[0.08] rounded-full blur-[150px] pointer-events-none" />
-      <div className="absolute -bottom-[15%] -right-[10%] w-[500px] h-[500px] bg-accent-teal/[0.06] rounded-full blur-[150px] pointer-events-none" />
+      {/* Gradient Orbs - contained to prevent overflow */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-[15%] -left-[10%] w-[60vw] md:w-[600px] h-[60vw] md:h-[600px] bg-accent-purple/[0.08] rounded-full blur-[150px]" />
+        <div className="absolute -bottom-[15%] -right-[10%] w-[50vw] md:w-[500px] h-[50vw] md:h-[500px] bg-accent-teal/[0.06] rounded-full blur-[150px]" />
+      </div>
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-5 md:px-10">

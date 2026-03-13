@@ -27,8 +27,10 @@ export default function ProjectsShowcase() {
     <section id="projetos" className="py-24 md:py-36 relative">
       <div className="section-divider mb-24 md:mb-36" />
 
-      {/* Background accent */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent-purple/[0.03] rounded-full blur-[200px] pointer-events-none" />
+      {/* Background accent - contained */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] md:w-[800px] h-[80vw] md:h-[800px] bg-accent-purple/[0.03] rounded-full blur-[200px]" />
+      </div>
 
       <div ref={ref} className="max-w-[1200px] mx-auto px-5 md:px-10 relative z-10">
         {/* Header */}

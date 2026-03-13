@@ -779,16 +779,18 @@ export default function ProjectHero({
 }: ProjectHeroProps) {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* ---- Gradient orbs ---- */}
-      <div
-        className="absolute -top-[20%] -left-[12%] w-[700px] h-[700px] rounded-full blur-[180px] pointer-events-none"
-        style={{ background: `rgba(${accentColorRGB}, 0.07)` }}
-      />
-      <div className="absolute -bottom-[18%] -right-[10%] w-[550px] h-[550px] bg-accent-purple/[0.06] rounded-full blur-[160px] pointer-events-none" />
-      <div
-        className="absolute top-[40%] right-[20%] w-[300px] h-[300px] rounded-full blur-[120px] pointer-events-none"
-        style={{ background: `rgba(${accentColorRGB}, 0.04)` }}
-      />
+      {/* ---- Gradient orbs - contained ---- */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div
+          className="absolute -top-[20%] -left-[12%] w-[70vw] md:w-[700px] h-[70vw] md:h-[700px] rounded-full blur-[180px]"
+          style={{ background: `rgba(${accentColorRGB}, 0.07)` }}
+        />
+        <div className="absolute -bottom-[18%] -right-[10%] w-[55vw] md:w-[550px] h-[55vw] md:h-[550px] bg-accent-purple/[0.06] rounded-full blur-[160px]" />
+        <div
+          className="absolute top-[40%] right-[20%] w-[30vw] md:w-[300px] h-[30vw] md:h-[300px] rounded-full blur-[120px]"
+          style={{ background: `rgba(${accentColorRGB}, 0.04)` }}
+        />
+      </div>
 
       {/* ---- Subtle grid overlay ---- */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none"

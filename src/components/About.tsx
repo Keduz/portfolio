@@ -176,10 +176,10 @@ export default function About() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={inView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.6, delay: 0.8 + i * 0.15, ease }}
-                className={`absolute glass rounded-xl px-5 py-4 flex flex-col items-center gap-1 z-10 ${
+                className={`absolute glass rounded-xl px-4 py-3 md:px-5 md:py-4 flex flex-col items-center gap-1 z-10 ${
                   i === 0
-                    ? 'top-[-10px] right-[-10px] md:right-[-30px]'
-                    : 'bottom-[-10px] left-[-10px] md:left-[-30px]'
+                    ? 'top-[-10px] right-0 md:right-[-30px]'
+                    : 'bottom-[-10px] left-0 md:left-[-30px]'
                 }`}
               >
                 <span className="font-heading text-2xl font-bold gradient-text">
