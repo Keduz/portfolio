@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/portfolio-kadu',
+  basePath: '/portfolio',
   images: { unoptimized: true },
   transpilePackages: ['three'],
 }
