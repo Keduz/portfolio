@@ -35,6 +35,7 @@ export type Project = {
   metrics: ProjectMetric[]
   flowSteps: FlowStep[]
   heroVisualType: 'dashboard' | 'workflow' | 'chat' | 'documents' | 'monitor' | 'pipeline' | 'website'
+  liveUrl?: string
 }
 
 export const projects: Project[] = [
@@ -291,6 +292,7 @@ export const projects: Project[] = [
       { title: 'Deploy e Otimizacao', description: 'Publicacao com otimizacao de SEO, performance e responsividade em todos os dispositivos' },
     ],
     heroVisualType: 'website',
+    liveUrl: 'https://keduz.github.io/corretora-site/',
   },
 ]
 
