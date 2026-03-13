@@ -36,6 +36,24 @@ export const metadata: Metadata = {
       'Especialista em Python, inteligencia artificial e automacao de processos.',
     type: 'website',
     locale: 'pt_BR',
+    url: 'https://keduz.github.io/portfolio',
+    siteName: 'Kadu Portfolio',
+    images: [
+      {
+        url: 'https://keduz.github.io/portfolio/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Kadu - Desenvolvedor IA & Automacao',
+        type: 'image/png',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kadu | Desenvolvedor IA & Automacao',
+    description:
+      'Especialista em Python, inteligencia artificial e automacao de processos.',
+    images: ['https://keduz.github.io/portfolio/og-image.png'],
   },
 }
 
