@@ -44,7 +44,7 @@ export const projects: Project[] = [
     title: 'Site Corretora de Imoveis',
     shortTitle: 'Corretora de Imoveis',
     subtitle: 'Website premium para corretora imobiliaria na Bahia',
-    description: 'Site de alto padrao para corretora de imoveis atuando em Salvador, Feira de Santana e Alagoinhas, com catalogo de imoveis, sistema de busca e integracao WhatsApp.',
+    description: 'Site de alto padrao para corretora de imoveis atuando em Salvador, Feira de Santana e Alagoinhas, com hero 3D interativo, catalogo de imoveis, sistema de busca e integracao WhatsApp.',
     category: 'sistemas',
     categoryLabel: 'Sistemas',
     accentColor: '#D4A843',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     statusType: 'done',
     problem: 'Corretora de imoveis precisava de presenca digital profissional para atrair clientes de alto padrao em 3 cidades da Bahia.',
     context: 'Mercado imobiliario competitivo na Bahia, necessidade de site premium com catalogo de imoveis, busca inteligente e captura de leads via WhatsApp.',
-    solution: 'Desenvolvimento de website moderno com Next.js, design luxuoso inspirado em imobiliarias de Miami/Dubai, catalogo completo com filtros e integracao direta com WhatsApp.',
+    solution: 'Desenvolvimento de website moderno com Next.js e Three.js, hero section 3D imersivo com predios wireframe dourados, design luxuoso inspirado em imobiliarias de Miami/Dubai, catalogo completo com filtros e integracao direta com WhatsApp.',
     objective: 'Criar uma plataforma digital premium que transmita confianca e sofisticacao, aumentando a captacao de leads qualificados.',
     techs: [
       { name: 'Next.js', role: 'Framework fullstack para renderizacao hibrida e performance otimizada', icon: 'devicon-nextjs-plain' },
@@ -61,6 +61,7 @@ export const projects: Project[] = [
       { name: 'TypeScript', role: 'Tipagem estatica para maior seguranca e manutencao do codigo', icon: 'devicon-typescript-plain' },
       { name: 'Tailwind CSS', role: 'Estilizacao utilitaria para design luxuoso e responsivo', icon: 'devicon-tailwindcss-original' },
       { name: 'Framer Motion', role: 'Animacoes fluidas e transicoes elegantes para experiencia premium' },
+      { name: 'Three.js', role: 'Cena 3D interativa com predios wireframe dourados e particulas no hero section', icon: 'devicon-threejs-original' },
     ],
     metrics: [
       { value: '7', label: 'Paginas' },
@@ -76,7 +77,7 @@ export const projects: Project[] = [
       { title: 'Deploy e Otimizacao', description: 'Publicacao com otimizacao de SEO, performance e responsividade em todos os dispositivos' },
     ],
     heroVisualType: 'website',
-    liveUrl: 'https://keduz.github.io/corretora-site/',
+    liveUrl: 'https://corretora-site.vercel.app/',
   },
   {
     slug: 'automacao-relatorios',
